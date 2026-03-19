@@ -1,0 +1,8 @@
+segundos = (int(input("ingrese una cantidad de segundos:    ")))
+horas= segundos // 3600
+segundos = segundos % 3600
+minutos = segundos // 60
+segundos = segundos % 60
+print(f"""la cantidad de segundos equivalen a {horas} horas,
+       a {minutos} minutos y a {segundos} segundos""")
+
