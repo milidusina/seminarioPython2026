@@ -1,0 +1,9 @@
+frase=input("ingrese una frase:     ")
+my_list=frase.split()
+lista = []
+for elem in my_list:
+    if len(elem)>3:
+        lista.append(elem)
+#list comphension
+for i in lista:
+    print(i)
