@@ -1,0 +1,8 @@
+año= int(input("ingrese su año de nacimiento:    "))
+print(año)
+cumple18=año+18
+print(f"cumpliras 18 años en:     {cumple18}")
+cumple21=año+21
+print(f"cumpliras 21 años en:     {cumple21}")
+cumple100=año+100
+print(f"cumpliras 100 años en:     {cumple100}")
