@@ -1,0 +1,5 @@
+total=0
+monto=float(input("ingrese el precio del producto:    "))
+while (monto!=0):
+    total= total+monto
+    monto=float(input("ingrese el precio del producto:    "))
