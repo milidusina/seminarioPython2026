@@ -1,4 +1,5 @@
 import random
+import string
 words = [
     "python",
     "programa",
@@ -12,6 +13,7 @@ words = [
 word = random.choice(words)
 guessed = []
 attempts = 6
+letras_admitidas = string.ascii_lowercase
 print("¡Bienvenido al Ahorcado!")
 print()
 while attempts > 0:
@@ -32,7 +34,9 @@ while attempts > 0:
 
     letter = input("Ingresá una letra: ")
     
-    if letter in guessed:
+    if len(letter)!=1 or (letter not in letras_admitidas):
+        print("Entrada no válida")
+    elif letter in guessed:
         print("Ya usaste esa letra.")
     elif letter in word:
         guessed.append(letter)
