@@ -9,14 +9,33 @@ words = [
     "cadena",
     "entero",
     "lista",
+    "kotlin",
+    "java",
 ]
-word = random.choice(words)
+categorias = {"Tipos de datos ":["entero","cadena","lista"],
+              "Lenguajes": ["python","kotlin","java"],
+              "Conceptos basicos": ["programa","variable","bucle","funcion"],
+              }
 guessed = []
 attempts = 6
 letras_admitidas = string.ascii_lowercase
 puntaje = 0
+
+#inicio del juego
 print("¡Bienvenido al Ahorcado!")
+print("Las categorias a elegir son:   ")
+for i in categorias.keys():
+    print(i)
 print()
+
+while True:
+    mi_categ=input("Ingrese su categoria:  ")
+    if (mi_categ in categorias):
+        word = random.choice(categorias[mi_categ])
+        break
+    else:
+        print("La categoria seleccionada no existe. Intente de nuevo:")
+
 while attempts > 0:
 # Mostrar progreso: letras adivinadas y guiones para las que faltan
     progress = ""
