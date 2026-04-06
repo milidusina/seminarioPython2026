@@ -18,3 +18,6 @@ Otra forma, y la mas conveniente, de descargar las dependencias en sus versiones
     pip install -r requirements.txt 
     
     Este comando instala todas las dependencias en sus versiones indicadas dentro del archivo llamado "requirements".
+
+video explicativo del ejercicio 10, donde se ve su ejecución y código:
+https://drive.google.com/file/d/1vpCQd43vIuHBk10zGE2uiBcojMrfR0eE/view?usp=sharing
