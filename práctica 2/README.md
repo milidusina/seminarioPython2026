@@ -6,7 +6,8 @@ DEPENDENCIAS NECESARIAS:
     
     pip install notebook (Los archivos de este tipo tienen extension "ipynb".)
     
-    Ademas existe otra dependencia que requiere Visual Studio Code (mi ide), sin ella vas a poder abrir y visualizar los archivos pero no vas a poder ejecutarlos, ya que es el interprete de Python.
+    Ademas existe otra dependencia que requiere Visual Studio Code (mi ide), sin ella vas a poder abrir 
+    y visualizar los archivos pero no vas a poder ejecutarlos, ya que es el interprete de Python.
     Es ipykernel, necesaria para ejecutar un programa en Jupyter. 
     Se instala colocando en consola el siguiente comando: 
     
