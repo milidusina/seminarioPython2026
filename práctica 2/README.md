@@ -14,6 +14,6 @@ DEPENDENCIAS NECESARIAS:
 
 Otra forma, y la mas conveniente, de descargar las dependencias en sus versiones correspodientes es colocando lo siguiente en consola:
 
-pip install -r requirements.txt 
-
-Este comando instala todas las dependencias en sus versiones indicadas dentro del archivo llamado "requirements".
+    pip install -r requirements.txt 
+    
+    Este comando instala todas las dependencias en sus versiones indicadas dentro del archivo llamado "requirements".
